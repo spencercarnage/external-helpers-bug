@@ -1,4 +1,4 @@
-### Bug with Babel's `external-helpers`
+# Bug with Babel's `external-helpers`
 
 Run `npm run build`.
 
