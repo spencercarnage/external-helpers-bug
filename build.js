@@ -5,7 +5,9 @@ var babelify   = require('babelify');
 var fs         = require('fs');
 
 browserify({debug: true})
-  .transform(babelify)
+  .transform(babelify.configure({
+    externalHelpers: true
+  }))
   .require('./foobar', { entry: true })
   .bundle()
   .on('error', function (err) {

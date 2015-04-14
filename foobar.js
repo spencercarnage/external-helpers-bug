@@ -1,6 +1,6 @@
 'use strict';
 
-require('babel/external-helpers');
+require('babel-core/external-helpers');
 
 import Foo from './foo';
 
