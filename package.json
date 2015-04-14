@@ -1,0 +1,17 @@
+{
+  "name": "external-helpers-bug",
+  "version": "1.0.0",
+  "description": "Recreates bug with babel's external helpers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js"
+  },
+  "author": "Spencer Carney",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^5.1.9",
+    "babelify": "^6.0.2",
+    "browserify": "^9.0.8"
+  }
+}
